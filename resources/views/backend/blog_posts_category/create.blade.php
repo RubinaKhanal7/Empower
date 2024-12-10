@@ -1,7 +1,6 @@
 @extends('backend.layouts.master')
 
 @section('content')
-    <!-- Content Wrapper. Contains page content -->
 
     @if (session('success'))
         <div class="alert alert-success">
